@@ -42,7 +42,7 @@ mongoose.connection
 //   password: String
 // };
 
-//set up mongoose-encryption enabled schema
+//set up schema using new mongoose.schema; this is required for encyption
 const userSchema = new mongoose.Schema ({
   email: String,
   password: String
